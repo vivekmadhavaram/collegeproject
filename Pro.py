@@ -1,4 +1,4 @@
-#this is the project done by me using python and raspberry pi  in which when a button is pressed, a web cam captures a image, sends it to the owner,based on owner’s reply door gets opened
+#this is the project done by me using python and raspberry pi  in which when a button is pressed, a web cam captures a image, sends it to the owner,based on ownerâ€™s reply door gets opened
 
 
 
@@ -46,7 +46,7 @@ def send_email(iD,bapiraj11):
     msg.attach(img)
     # Credentials (if needed)
     username = 'bapiraj1998@gmail.com'
-    password = 'bapiraj123'
+    password = '12345678'
 
     # The actual mail send
     server = smtplib.SMTP('smtp.gmail.com:587')
@@ -70,7 +70,7 @@ def snap():
     cam.release()
     print("Your picture is taken")
 
-#verifying owner’s reply
+#verifying ownerâ€™s reply
 
 def mail_check():
  while True:    
