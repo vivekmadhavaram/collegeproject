@@ -14,7 +14,7 @@ import imaplib
 import email
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com')
-(retcode, capabilities) = mail.login('bapiraj1998@gmail.com','bapiraj123')
+(retcode, capabilities) = mail.login('xyz@gmail.com','******')
 
 LDR=3
 b1=20
@@ -45,7 +45,7 @@ def send_email(iD,bapiraj11):
     fp.close()
     msg.attach(img)
     # Credentials (if needed)
-    username = 'bapiraj1998@gmail.com'
+    username = 'xyz@gmail.com'
     password = '12345678'
 
     # The actual mail send
